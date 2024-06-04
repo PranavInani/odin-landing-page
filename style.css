@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 16px;
+    padding-left: 96px;
+    padding-right: 96px;
+    gap: 96px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.headerlogo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.headerlink {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin: 0;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 150px;
+}
+
+.herobody {
+    display: flex;
+    flex-direction: column;
+    width: 500px;  
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #F9FAF8;
+
+}
+
+.signup{
+    background-color: #3882F6;
+    border-radius: 12px;
+    width: 100px;
+    padding: 8px 24px;
+    border: none;
+}
+
+.randominfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.rinfo {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.rimages {
+    display: flex;
+    gap: 32px;
+
+}
+
+.rimage {
+    width: 300px;
+    text-align: center;
+
+}
+
+.images {
+    border-radius: 14px;
+    border: 5px solid #1F2937;
+    width: auto;
+}
+
+.quote-block {
+    display: flex;
+    background-color: #e5e7eb  ;
+    color : #1F2937;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.quote {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 36px;
+    font-style:italic;
+    font-weight:100;
+}
+
+.author {
+    text-align: right;
+    padding-right: 30%;
+    font-size: 30px;
+    font-weight:900;
+}
+
+.feedback {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 25%;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.left-feedback {
+    
+}
